@@ -18,6 +18,7 @@
 	//Include the DB.php file
 	include_once "class/DB.php";
 	include_once "class/Filter.php";
+	include_once "functions.php";
 	
 	$con = DB::getConnection();
 	
